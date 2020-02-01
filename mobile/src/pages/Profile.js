@@ -1,9 +1,16 @@
 import React from 'react';
-import { View } from 'react-native';
+import { StatusBar } from 'react-native';
+import { WebView } from 'react-native-webview';
 
-function Profile() {
+function Profile({ navigation }) {
+    const githubUsername = navigation.getParam('github_username'); 
 
-    return <View></View>
+    return (
+        <>
+            <StatusBar barStyle="light-content" backgroundColor='#23282E' />
+            <WebView source={{ uri: `https://github.com/${githubUsername}` }} style={{ flex: 1 }} />
+        </>
+    )
 }
 
 export default Profile;
