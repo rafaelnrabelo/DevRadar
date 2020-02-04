@@ -1,7 +1,7 @@
 
 ## Projeto DevRadar da Semana Omnistack #10 com algumas modificações.
 
-## Modificações:
+### Modificações:
 
   ### Mobile:
     * Adição do Logo no Header da página Main.
