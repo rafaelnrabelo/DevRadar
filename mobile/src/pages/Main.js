@@ -11,7 +11,7 @@ function Main({ navigation }) {
     const [devs, setDevs] = useState([]);
     const [currentRegion, setCurrentRegion] = useState(null);
     const [techs, setTechs] = useState('');
-    
+
     async function loadPosition() {
         const { granted } = await requestPermissionsAsync();
 
@@ -106,7 +106,7 @@ function Main({ navigation }) {
             <View style={styles.searchForm}>
                 <TextInput
                     style={styles.searchInput}
-                    placeholder="Buscar devs por techs..."
+                    placeholder="Buscar por tecnologias…"
                     placeholderTextColor="#999"
                     autoCapitalize="words"
                     autoCorrect={false}

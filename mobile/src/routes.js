@@ -1,10 +1,13 @@
-import { createAppContainer } from 'react-navigation';
+import { createAppContainer, withNavigation } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import React from 'react';
-import { Image, Text } from 'react-native';
+import { TouchableOpacity, Image, Text } from 'react-native';
+import { MaterialIcons } from '@expo/vector-icons';
 
 import Main from './pages/Main';
+import AddButton from './pages/utils/AddButton';
 import Profile from './pages/Profile';
+import Registration from './pages/Registration';
 import { View } from 'react-native';
 
 class LogoTitle extends React.Component {
@@ -29,17 +32,31 @@ const Routes = createAppContainer(
                 headerTitle: () => <LogoTitle />,
                 headerStyle: {
                     backgroundColor: '#7D40E7'
-                }
-            },
+                },
+                headerRight: () => (
+                    <AddButton />
+                )
+            }
         },
         Profile: {
             screen: Profile,
             navigationOptions: {
                 title: 'Perfil no Github',
                 headerStyle: {
-                    backgroundColor: '#23282E'
+                    backgroundColor: '#23282E',
+                    elevation: 0
                 }
-            },
+            }
+        },
+        Registration: {
+            screen: Registration,
+            navigationOptions: {
+                title: 'Cadastro',
+                headerStyle: {
+                    backgroundColor: '#7D40E7',
+                    elevation: 0
+                }
+            }
         }
     }, {
         defaultNavigationOptions: {

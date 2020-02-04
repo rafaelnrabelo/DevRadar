@@ -33,6 +33,11 @@ li.dev-item header .user-info{
     margin-top: 2px;
 }
 
+.deleteButton {
+    position: absolute;
+    left: 150px;
+}
+
 li.dev-item p {
     color: #666;
     font-size: 14px;

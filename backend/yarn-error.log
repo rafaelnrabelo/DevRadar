@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EROFS: read-only file system, mkdir '/tmp/yarn--1580734661319-0.8040220937211913'
+  Error: EROFS: read-only file system, mkdir '/tmp/yarn--1580757820578-0.40396378164842006'
 
 npm manifest: 
   {

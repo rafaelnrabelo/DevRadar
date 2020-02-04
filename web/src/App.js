@@ -13,14 +13,14 @@ import DevForm from './components/DevForm';
 
 function App() {
   const [devs, setDevs] = useState([]);
+  
+  async function loadDevs() {
+    const response = await api.get('/devs');
+
+    setDevs(response.data);
+  }
 
   useEffect(() => {
-    async function loadDevs() {
-      const response = await api.get('/devs');
-
-      setDevs(response.data);
-    }
-
     loadDevs();
   }, []);
 
@@ -39,7 +39,7 @@ function App() {
       <main>
         <ul>
           {devs.map(dev => (
-            <DevItem key={dev._id} dev={dev} />
+            <DevItem  onClick={loadDevs} key={dev._id} dev={dev} />
           ))}
         </ul>
       </main>
