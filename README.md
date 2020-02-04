@@ -15,4 +15,3 @@
   
   ### Web:
    - Adição de um botão para apagar o Dev.
-   - Criação de eventos;
