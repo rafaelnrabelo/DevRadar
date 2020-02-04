@@ -1,6 +1,6 @@
 
-### Projeto DevRadar da Semana Omnistack #10
-### com algumas modificações.
+# Projeto DevRadar da Semana Omnistack #10
+# com algumas modificações.
 
 ## Modificações:
    ### Mobile:
