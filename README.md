@@ -2,8 +2,7 @@
 ## Projeto DevRadar da Semana Omnistack #10 com algumas modificações.
 
 ### Modificações:
-
-  ### Mobile:
+    ### Mobile:
    - Adição do Logo no Header da página Main.
    - Alteração da Splash screen e do Logo do app.
    - Submit do filtro de tecnologias com Enter.
