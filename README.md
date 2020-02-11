@@ -1,5 +1,6 @@
 
-# Projeto DevRadar da Semana Omnistack 10 com algumas alterações.
+<h1 align="center">Projeto DevRadar da Semana Omnistack 10</h1>
+<h2 align="center">com algumas alterações</h2>
 
 ## Modificações:
    ### Mobile:
