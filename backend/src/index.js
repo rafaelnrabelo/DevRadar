@@ -5,13 +5,14 @@ const http = require('http');
 
 const routes = require('./routes');
 const { setupWebSocket } = require('./websocket');
+const { MONGO_URL } = require('./.env.json');
 
 const app = express();
 const server = http.Server(app);
 
 setupWebSocket(server);
 
-mongoose.connect('mongodb+srv://rafael:rafael2001@cluster0-dv8ty.mongodb.net/week10?retryWrites=true&w=majority', {
+mongoose.connect(MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });

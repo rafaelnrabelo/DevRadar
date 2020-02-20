@@ -1,6 +1,8 @@
 import socketio from 'socket.io-client';
 
-const socket = socketio('http://192.168.0.187:3333', {
+import { API_URL } from '../.env.json';
+
+const socket = socketio(API_URL, {
     autoConnect: false
 });
 
