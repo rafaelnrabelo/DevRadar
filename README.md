@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  DevRadar <br/>
+  <img src="https://user-images.githubusercontent.com/55251721/77790953-7a4a5400-7044-11ea-9b09-1cd911245053.png" width=250 /> <br/>
 </h1>
 
 <h2 align="center">
