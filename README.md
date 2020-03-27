@@ -1,6 +1,14 @@
 
-<h1 align="center">Projeto DevRadar da Semana Omnistack 10</h1>
-<h2 align="center">com algumas alterações</h2>
+<h1 align="center">
+  DevRadar <br/>
+</h1>
+
+<h2 align="center">
+  Projeto da Semana Omnistack 10 com algumas alterações<br/> <br/>
+  <a href="https://github.com/rafaelnrabelo/DevRadar#testando">
+    <img src="https://img.shields.io/badge/Testing-Install-%237D40E7" alt="testing"/>
+  </a>
+</h2>
 
 ## Modificações:
    ### Mobile:
