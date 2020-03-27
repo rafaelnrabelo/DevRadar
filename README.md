@@ -10,6 +10,8 @@
   </a>
 </h2>
 
+![Component 2](https://user-images.githubusercontent.com/55251721/77792346-fcd41300-7046-11ea-9e33-f08ff0d287be.png)
+
 ## Modificações:
    ### Mobile:
    - Adição do Logo no Header da página Main.
